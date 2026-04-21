@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd 03_Workspace && npm install && npm run build",
+  "outputDirectory": "03_Workspace/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
