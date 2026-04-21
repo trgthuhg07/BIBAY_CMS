@@ -1,0 +1,54 @@
+92 Trường ngày tháng click vào icon lịch hiện lịch, lịch bắt đầu từ thứ 2
+theo dữ liệu
+91 Các biểu đồ tròn sắp xếp dữ liệu giảm dần theo chiều kim đồng hồ
+- Title cột nếu dài có thể hiển thị tối đa thành 2 dòng, tiêu đề cột căn thì hiển thị thêm
+Căn gióng khoảng cách trên, dưới, trái, phải, các trường thông tin90
+- Fix độ rộng các cột khớp với dữ liệu- Có tab: Hiển thị 1 nút chính, nhiều hơn thì có icon 3 gạch, click vào căn giữa
+82 - Ghim tiêu đề cột khi có nhiều dữ liệu mà cuộn chuột xuống gạch, click vào thì hiển thị thêmbản ghi có nhiều hành động nhấtCác hành động trong cột Hành động căn trái, chỉ có 1 hành động thì 
+81 thông tin phải cuộn ngang- Không có tab: Hiển thị tối đa 3 nút chính, nhiều hơn thì có icon 3 Cột hành động không để thừa nhiều khoảng trống, độ rộng căn theo 
+77 - Cột hành động của bảng ở cuối, ghim cột hành động nếu bảng nhiều Hiển thị button:
+76 Bảng:
+73 của checkbox (nếu quá dài thì hiển thị tooltip khi di chuột vào)Cả web và app: Phần tìm kiếm có icon xóa nhanh text đã nhập
+69 Label khó hiểu thì có thông tin mô tả rõ ràng về ô nhập liệu. Vd label 
+68 Icon menu không được giống nhau
+64 Label của các ô checkbox, option phải click đượcÁp dụng cho toàn bộ dự án (trừ trường hợp yêu cầu đặc biệt từ khách hàng ạ)
+63 Tất cả thông báo lỗi đổi thành Vui lòng chọn..., Vui lòng nhập...- Padding từ text đến lề trái, lề phải của cột trong table = 12px
+61 Thống nhất các trạng thái màu sắc khác nhauVD: Popup xác nhận gửi email > Không sử dụng button "Lưu", mà sử dụng "Xác nhận" - Mã màu hover: F0F2F5
+43 Table (cập nhật theo UI_07.1 Link UI K12 26/06/25chung.- Mã màu sọc kẻ: F6F7F9                     Link thiết kế
+35 Lable button           Lable button trên các popup xác nhận: Tên của button phải mô tả rõ hành động thực hiện của user, không mô tả chung 
+34 Filter & Bộ lọc - Xuất hiện button link "Xóa bộ lọc"Trong màn hình danh sách: Thêm button link "Xóa bộ lọc" khi user đã chọn giá trị lọcLink thiết kế
+28 Status             - Gộp input, không tách thành 2 trường riêng biệtThống nhất màu sắc trạng thái các trạng thái màu sắc khác nhau
+27 Input - from day to day        - Giá trị mặc định: dd/mm/yyyy - dd/mm/yyyy
+26 Input - Date            Giá trị mặc định: dd/mm/yyyy
+25 Input - Text area          Khi phân tích BA phải xác định được số lượng ký tự tối đa cho người dùng nhập liệuLink thiết kế
+24 Input - Label           Mô tả rõ ràng chức năng, nếu dài quá cho vào tooltip
+23 Input - Text box           Note dev: Phải có clear text
+19 Dropdown - Action          - Nếu có nhiều hành động: phân chia theo nhóm          Link thiết kế
+18 Components           - Warningdung, không sử dụng chung chung 
+17 Empty state           - Những màn hình chưa có nội dung phải có hình ilustration và nội dung mô tả, hình ilustraion phải phù hợp với nội Link thiết kế
+Lưu ý: Thêm mới hoặc chỉnh sửa các trường dữ liệu trong table cũng căn theo quy tắc trên- Failed- Thông báo chung chung => để button màu primary
+16 Modal dialog           - Success- Thông báo nguy hiểm => để button màu đỏ           Link thiết kế
+13 Primary color          Nhất quán tone màu
+- Placehoder: Không có cụm từ "Tìm kiếm" (VD: chỉ cần hiện là Tên sản phẩm, Họ và tên,...)- Căn phải: Số lượng, tiền                https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-3319&t=fyxElnAkvvffjkMI-11
+12 Phân trang           - Căn giữa: Thời gian: ngày tháng năm, giờ- Loại phức tạp: loại chia nhóm, nhóm cột, nhóm hàng => Có line 1px để phân biệtBao gồm: Sắp xếp, chọn SL bản ghi trên page, tổng số bản ghi, next & back pagehttps://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=1414-4321&t=fyxElnAkvvffjkMI-11
+11 Table - Column line          Lưu ý: Box search luôn đáp ứng enter và click button để search- Căn trái: Text, trạng thái, CCCD/CMND/SĐT- Loại đơn giản: là những loại chỉ có 1 hàng, 1 cột => Không có line cột 1 pxhttps://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-2215&t=fyxElnAkvvffjkMI-11
+10 Table - Rule căn chỉnh         + Không có button "Tìm kiếm" và "icon" <=> Không có ô searchTiêu đề căn theo nội dung
+8 Table - Style               + Chỉ có icon search <=> có 1 box tìm kiếm, nên gộp các trường searchZebra striping                          https://www.w3schools.com/howto/howto_css_table_zebra.asp
+7 Filter & search - Tiêu đề        Giao diện bộ lọc phải đáp ứng: số lượng user đã lọc bao nhiêu trường lọc  + Có button "Tìm kiếm" <=> có nhiều box nhập text, code không đáng ứng gộpTiêu đề phải khớp với tiêu đề cột của bảng
+6 Filter & search - Button "Tìm kiếm"     Bắt buộc ấn button "Áp dụng" để lọc- Có 3 dạng button "Tìm kiếm":                  https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=763-14085&t=fyxElnAkvvffjkMI-11
+5 Filter & search - Button "Bộ lọc"     - Filter & search ngang hàng button <=> Có tabNếu nhiều trường lọc > nhóm vào "Bộ lọc"           https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-7616&t=fyxElnAkvvffjkMI-11
+3 Vị trí button "Thêm mới", "Nhập excel", "Xuất excel"- Dự án có nhiều module: Trang cấp 1 có pathway theo tên của module (VD: Văn bằng chứng chỉ > Tổng quan- Tiêu để và button ngang hàng nhau <=> Không có tab        https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-11205&t=fyxElnAkvvffjkMI-11
+2 Pathway            - Dự án không có module nào: trang cấp 1 bỏ pathway         https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=816-4617&t=fyxElnAkvvffjkMI-11
+STTTên thành phần            Yêu cầu                             Link figma
+----------------Page (0) Break----------------
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-3319&t=fyxElnAkvvffjkMI-11
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=1414-4321&t=fyxElnAkvvffjkMI-11
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-2215&t=fyxElnAkvvffjkMI-11
+https://www.w3schools.com/howto/howto_css_table_zebra.asp
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=763-14085&t=fyxElnAkvvffjkMI-11
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-7616&t=fyxElnAkvvffjkMI-11
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=760-11205&t=fyxElnAkvvffjkMI-11
+https://www.figma.com/design/cRRJ4LwFlF2YGEqqSUSKGY/Elements-UI-Web?node-id=816-4617&t=fyxElnAkvvffjkMI-11
+----------------Page (1) Break----------------
+
+----------------Page (2) Break----------------

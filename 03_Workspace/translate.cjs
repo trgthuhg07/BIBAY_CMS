@@ -1,0 +1,15 @@
+const fs = require('fs');
+let data = fs.readFileSync('src/utils/dummyData.js', 'utf8');
+data = data.replace(/type: "PERSONAL"/g, 'type: "Cá nhân"');
+data = data.replace(/type: "MERCHANT"/g, 'type: "Đơn vị bán hàng"');
+data = data.replace(/type: "AGENT"/g, 'type: "Đại lý"');
+data = data.replace(/type: "SYSTEM"/g, 'type: "Hệ thống"');
+data = data.replace(/status: "ACTIVE"/g, 'status: "Hoạt động"');
+data = data.replace(/status: "PENDING"/g, 'status: "Chờ duyệt"');
+data = data.replace(/status: "TEMPORARY BLOCKED"/g, 'status: "Khóa tạm thời"');
+data = data.replace(/status: "BLACKLISTED"/g, 'status: "Danh sách đen"');
+data = data.replace(/case 'ACTIVE':/g, "case 'Hoạt động':");
+data = data.replace(/case 'PENDING':/g, "case 'Chờ duyệt':");
+data = data.replace(/case 'TEMPORARY BLOCKED':/g, "case 'Khóa tạm thời':");
+data = data.replace(/case 'BLACKLISTED':/g, "case 'Danh sách đen':");
+fs.writeFileSync('src/utils/dummyData.js', data);
